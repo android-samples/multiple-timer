@@ -53,8 +53,8 @@ public class MyTimerFragment extends Fragment {
 					@Override
 					public void run() {
 						long total = SystemClock.elapsedRealtime() - mStartTime;
-						SimpleDateFormat f = new SimpleDateFormat("mm:ss.SSS");
-						String s = f.format(new Date(total));
+						SimpleDateFormat f = new SimpleDateFormat("mm:ss");
+						String s = f.format(new Date(total)) + "." + ((int)(total % 1000) / 100);
 						mTextView.setText(s);
 					}
 				});
