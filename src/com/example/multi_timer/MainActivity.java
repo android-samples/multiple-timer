@@ -1,4 +1,6 @@
-package com.example.kadaitimer;
+package com.example.multi_timer;
+
+import com.example.multi_timer.R;
 
 import android.animation.LayoutTransition;
 import android.app.Activity;

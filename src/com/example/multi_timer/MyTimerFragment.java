@@ -1,9 +1,11 @@
-package com.example.kadaitimer;
+package com.example.multi_timer;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Timer;
 import java.util.TimerTask;
+
+import com.example.multi_timer.R;
 
 import android.app.Fragment;
 import android.os.Bundle;

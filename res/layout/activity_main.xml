@@ -3,7 +3,7 @@
     android:id="@+id/all"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.kadaitimer.MainActivity"
+    tools:context="com.example.multi_timer.MainActivity"
     tools:ignore="MergeRootFrame" >
 
     <LinearLayout
